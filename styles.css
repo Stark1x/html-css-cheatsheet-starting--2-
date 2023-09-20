@@ -1,0 +1,62 @@
+/* Font for the whole page */
+* {
+    font-family: monospace, sans-serif;
+    background-color: bisque;
+}
+
+table {
+    border: 2px solid darkorchid;
+    width: 650px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: rebeccapurple;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: rebeccapurple;
+}
+
+h3 {
+    color: brown;
+    text-align: center;
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    white-space-collapse: collapse;
+    text-wrap: wrap;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    color: -internal-quirk-inherit;
+    text-align: start;
+    border-spacing: 2px;
+    border-color: purple;
+    font-variant: normal;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+th,
+td {
+    border: 1px solid #000;
+    padding: 2px 5px;
+}
